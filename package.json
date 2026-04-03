@@ -1,0 +1,18 @@
+{
+  "name": "bastard-feedback-api",
+  "version": "1.0.0",
+  "description": "Collective intelligence API for BASTARD framework — receives anonymous telemetry, serves aggregate insights.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute bastard-feedback --local --file=schema.sql",
+    "db:init:remote": "wrangler d1 execute bastard-feedback --remote --file=schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0",
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT"
+}

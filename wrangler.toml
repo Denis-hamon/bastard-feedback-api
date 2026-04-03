@@ -1,0 +1,8 @@
+name = "bastard-feedback-api"
+main = "src/index.ts"
+compatibility_date = "2026-04-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bastard-feedback"
+database_id = "" # Fill after `wrangler d1 create bastard-feedback`
