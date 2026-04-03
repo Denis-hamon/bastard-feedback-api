@@ -5,4 +5,4 @@ compatibility_date = "2026-04-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "bastard-feedback"
-database_id = "" # Fill after `wrangler d1 create bastard-feedback`
+database_id = "c5c69571-302b-4b03-add4-d9afc0b7007e"
